@@ -1,0 +1,9 @@
+ADR-02: Email students about available group seats
+Context:
+- Students may miss seats that become available after another student cancels.
+Decision:
+- Email interested students when seats become available 
+Consequences:
+- Good: Students receive updates without checking availability constantly.
+- Bad: Requires processing emails
+- Follow-up: Define how students can request this feature and test that emails are sent when cancelations frees seats in active group sessions.

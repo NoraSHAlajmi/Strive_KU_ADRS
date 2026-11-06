@@ -1,0 +1,9 @@
+ADR-01: Use one database for the entire system
+Context:
+-Strive KU’s users, sessions and registrations share related information.
+Decision:
+-Use one database for the system’s data.
+Consequences:
+- Good: Makes related data easier to manage and access.
+- Bad: A database hazard could affect the whole system.
+- Follow-up: Test that related data remain consistent when bookings are changed.

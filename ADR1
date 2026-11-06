@@ -1,0 +1,12 @@
+
+ADR-01: Use seperate databeses for different features
+Context:
+- Strive KU stores information for different features, users, sessions and registrations
+
+Decision:
+- Use separate databases for different system features
+
+Consequences:
+- Good: Helps locate database problems and identify what aspects are affected.
+- Bad: Accessing related data from different databases is more hard.
+- Follow-up: Document what each database stores.

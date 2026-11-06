@@ -1,0 +1,9 @@
+ADR-03: Use separate login pages for each role
+Context:
+- Tutors, Students and Admins access different dashboards.
+Decision:
+- Use separate login pages for each role.
+Consequences:
+- Good: clear login instructions for each role.
+- Bad: Crete and maintaine multiple login pages.
+- Follow-up: Testing that each login directs users to the correct dashboard.
